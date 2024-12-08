@@ -1,3 +1,5 @@
+import logoUrl from '../assets/logo.png'
+
 const About = function() {
   const classes = 'section about'
 
@@ -6,7 +8,7 @@ const About = function() {
       <div className="about__container">
         <div className="hero">
           <h1 className="name name__first"> Tyler</h1>
-          {/*<img src="images/logo.png" alt="a logo depicting a guitar player"></img>*/}
+          <img src={logoUrl} alt="a logo depicting a guitar player"></img>
           <h1 className="name" >Martin</h1>
         </div>
         <p className="bio">
