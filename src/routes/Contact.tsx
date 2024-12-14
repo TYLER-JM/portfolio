@@ -1,3 +1,4 @@
+import '../styles/contact.css'
 
 const Contact = function() {
 	return (

@@ -1,0 +1,58 @@
+.contact {
+
+    a {
+        color: var(--dark);
+    }
+    p {
+        font-size: 1.75em;
+        font-family: sans-serif;
+        font-weight: 200;
+        margin: 0;
+    }
+    .social {
+        transition: color .5s;
+        padding: calc(0.2rem + 1vw) 0 0 0;
+        svg {
+            height: calc(2rem + 1vw);
+            width: calc(2rem + 1vw);
+        }
+    }
+    .linkedin {
+        &:hover {
+            color: #0077b5;
+        }
+    }
+    .mail {
+        &:hover {
+            color: #cc3429;
+        }
+    }
+    .github {
+        &:hover {
+            color: #24292e;
+        }
+    }
+
+}
+
+.contact__social {
+    padding-bottom: 2em ;
+}
+.contact__container {
+    padding: 1rem .5rem;
+    display: flex;
+    color: var(--dark);
+    flex-direction: column;
+    max-width: calc(35rem + 1vw);
+    border-left: 2px solid burlywood;
+
+    div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    @media (max-width: 800px) {
+        max-width: 90%;
+    }
+}

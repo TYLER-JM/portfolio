@@ -1,3 +1,4 @@
+import '../styles/projects.css'
 import ProjectCard from "../components/ProjectCard.tsx";
 
 const Projects = function() {
