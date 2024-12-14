@@ -1,0 +1,66 @@
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.about__container {
+    max-width: calc(35rem + 1vw);
+    @media (max-width: 800px) {
+        max-width: 90%;
+    }
+}
+
+.about {
+    margin-bottom: 2em;
+    .hero {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 1em;
+        img {
+            height: 6.25em;
+            width: 6.25em;
+            @media (max-width: 700px) {
+                display: none;
+            }
+        }
+        .name {
+            text-transform: uppercase;
+            font-size: 2rem;
+            letter-spacing: calc(0.72rem + 1vw);
+        }
+    }
+    .bio {
+        font-size: 1.75em;
+        padding-left: .5rem;
+        padding-right: .5rem;
+        margin-bottom: 1rem;
+        font-family: sans-serif;
+        border-left: 2px solid burlywood;
+
+        font-weight: 300;
+        a {
+            text-decoration: none;
+
+            color: burlywood;
+            transition: all 0.3s;
+            &:hover {
+                color: black;
+            }
+        }
+        a:visited {
+            text-decoration: none;
+            color: burlywood;
+            &:hover {
+                color: black;
+            }
+        }
+    }
+    span {
+        width: 50%;
+    }
+}

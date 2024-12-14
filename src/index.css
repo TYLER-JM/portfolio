@@ -1,10 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  font-size: calc(0.25em + 1vw);
+  @media only screen and (max-width: 800px) {
+    font-size: calc(.5rem + 1vw);
+  }
+  background: linear-gradient(192deg, #fff, #eaeaea);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --dark: #303641;
+}
+
+.section {
+  animation-name: fadein;
+  animation-duration: 0.7s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+
+  grid-area: 2 / 1 / 3 / 2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  a {
+    color: black;
+  }
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 4fr;
+
+  position: relative;
+  min-height: 100vh;
+  color: var(--dark);
+
+  /*
+  -webkit-animation: background-fade 37s ease infinite;
+  -moz-animation: background-fade 37s ease infinite;
+  animation: background-fade 37s ease infinite;
+   */
 }

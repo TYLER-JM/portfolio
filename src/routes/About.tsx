@@ -1,4 +1,5 @@
 import logoUrl from '../assets/logo.png'
+import '../styles/about.css'
 
 const About = function() {
   const classes = 'section about'

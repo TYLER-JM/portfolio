@@ -1,14 +1,17 @@
 import './App.css'
+import './styles/navbar.css'
 import { NavLink, Outlet } from "react-router";
 
 function Root() {
 
   return (
     <>
-      <nav>
-        <NavLink viewTransition to="/">About</NavLink>
-        <NavLink viewTransition to="/projects">Projects</NavLink>
-        <NavLink viewTransition to="/contact">Contact</NavLink>
+      <nav className="menu" id="menu">
+        <ul>
+          <li><NavLink viewTransition to="/">About</NavLink></li>
+          <li><NavLink viewTransition to="/projects">Projects</NavLink></li>
+          <li><NavLink viewTransition to="/contact">Contact</NavLink></li>
+        </ul>
       </nav>
       <main>
         <Outlet />
