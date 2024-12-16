@@ -10,26 +10,26 @@
         margin: 0;
     }
     .social {
-        transition: color .5s;
         padding: calc(0.2rem + 1vw) 0 0 0;
         svg {
+            transition: all .5s;
             height: calc(2rem + 1vw);
             width: calc(2rem + 1vw);
         }
     }
     .linkedin {
         &:hover {
-            color: #0077b5;
+            fill: #0077b5;
         }
     }
     .mail {
         &:hover {
-            color: #cc3429;
+            fill: #cc3429;
         }
     }
     .github {
         &:hover {
-            color: #24292e;
+            fill: #24292e;
         }
     }
 
