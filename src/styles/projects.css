@@ -23,6 +23,11 @@
     line-height: 1.4;
 
     .source-code {
+        svg {
+            fill: var(--dark);
+            height: 1.5em;
+            width: 1.5em;
+        }
         &:hover {
             filter: grayscale(0%);
             &:after {
@@ -66,6 +71,10 @@
     }
 }
 .card__link--live {
-    padding-right: .5em;
-    font-size: .75em;
+    display: flex;
+}
+.card__link--live svg {
+    margin-left: 0.25em;
+    height: .75em;
+    width: .75em;
 }

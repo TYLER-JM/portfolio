@@ -10,7 +10,7 @@
         margin: 0;
     }
     .social {
-        padding: calc(0.2rem + 1vw) 0 0 0;
+        padding: calc(0.2rem + 1vw) calc(2rem + 1vw) 0 0;
         svg {
             transition: all .5s;
             height: calc(2rem + 1vw);
@@ -32,12 +32,16 @@
             fill: #24292e;
         }
     }
-
 }
 
 .contact__social {
-    padding-bottom: 2em ;
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
+
 .contact__container {
     padding: 1rem .5rem;
     display: flex;
@@ -46,12 +50,6 @@
     max-width: calc(35rem + 1vw);
     border-left: 2px solid burlywood;
 
-    div {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-    }
     @media (max-width: 800px) {
         max-width: 90%;
     }

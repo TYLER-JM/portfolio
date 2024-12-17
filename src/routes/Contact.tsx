@@ -5,17 +5,17 @@ const Contact = function() {
 		<article className="section contact" id="contact">
 			<div className="contact__container">
 				<div className='contact__social'>
-					<a className="social github" href="https://github.com/TYLER-JM" target="blank">
+					<a title="open Github profile" className="social github" href="https://github.com/TYLER-JM" target="blank">
 						<svg className="github">
 							<use xlinkHref="images/sprite.svg#icon-github"></use>
 						</svg>
 					</a>
-					<a className="social linkedin" href="https://www.linkedin.com/in/tyler-martin-670020198/" target="blank">
+					<a title="open LinkedIn profile" className="social linkedin" href="https://www.linkedin.com/in/tyler-martin-670020198/" target="blank">
 						<svg className="linkedin">
 							<use xlinkHref="images/sprite.svg#icon-linkedin-with-circle"></use>
 						</svg>
 					</a>
-					<a className="social mail" href="mailto:tyler.j.a.martin@gmail.com" target="_blank" rel="noopener noreferrer">
+					<a title="send an email" className="social mail" href="mailto:tyler.j.a.martin@gmail.com" target="_blank" rel="noopener noreferrer">
 						<svg className="mail">
 							<use xlinkHref="images/sprite.svg#icon-mail"></use>
 						</svg>

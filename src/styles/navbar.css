@@ -5,6 +5,7 @@ ul {
     a {
         text-decoration: none;
         border-bottom: none;
+        color: currentColor;
         &:visited {
             color: currentColor;
         }
@@ -31,12 +32,12 @@ ul {
         position: relative;
         padding: 0 calc(0.1rem + 1vw);
         letter-spacing: 0;
-        &:hover,&:active {
+        &:hover, &:active {
             letter-spacing: 5px;
             color: black;
         }
 
-        &:after,&:before {
+        &:after, &:before {
             backface-visibility: hidden;
             border: 1px solid rgba(255, 255, 255, 0);
             bottom: 0;
@@ -47,7 +48,7 @@ ul {
             transition: all 280ms ease-in-out;
             width: 0;
         }
-        &:hover:after,&:hover:before {
+        &:hover:after, &:hover:before {
             backface-visibility: hidden;
             border-color: burlywood;
             transition: width 350ms ease-in-out;
