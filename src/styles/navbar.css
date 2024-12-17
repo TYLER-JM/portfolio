@@ -32,7 +32,8 @@ ul {
         position: relative;
         padding: 0 calc(0.1rem + 1vw);
         letter-spacing: 0;
-        &:hover, &:active {
+
+        &:hover, &:active, &:has(a.active) {
             letter-spacing: 5px;
             color: black;
         }
@@ -48,11 +49,12 @@ ul {
             transition: all 280ms ease-in-out;
             width: 0;
         }
-        &:hover:after, &:hover:before {
+        &:hover:after, &:hover:before, &:has(a.active):after {
             backface-visibility: hidden;
             border-color: burlywood;
             transition: width 350ms ease-in-out;
             width: 100%;
         }
     }
+
 }
