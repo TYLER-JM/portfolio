@@ -49,6 +49,7 @@ ul {
             transition: all 280ms ease-in-out;
             width: 0;
         }
+
         &:hover:after, &:hover:before, &:has(a.active):after {
             backface-visibility: hidden;
             border-color: burlywood;

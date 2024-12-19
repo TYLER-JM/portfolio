@@ -13,7 +13,6 @@ const ProjectCard = function (
   return (
 
       <div className="card">
-
         <div className="card__content">
           <div className="card__title">
             <span>{title}</span>

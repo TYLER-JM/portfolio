@@ -34,7 +34,6 @@ const Projects = function() {
 
   return (
     <article className="section projects" id="projects">
-
       <div className="projects__container">
           {allProjectCards}
       </div>
