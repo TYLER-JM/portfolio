@@ -1,0 +1,36 @@
+.project-detail__container {
+    max-width: 80%;
+    @media only screen and (max-width: 800px) {
+        max-width: 95%;
+    }
+    margin: 0 auto;
+
+    font-size: 1.5em;
+    font-family: sans-serif;
+    border: 1px solid red;
+
+    p {
+        text-indent: 3rem;
+        line-height: 1.25;
+    }
+    p:not(:last-child) {
+        margin-bottom: 2rem;
+    }
+
+}
+
+/*testing without this element*/
+.project-detail {
+    font-size: 1.5em;
+    font-family: sans-serif;
+    border: 1px solid red;
+
+    p {
+        text-indent: 3rem;
+        line-height: 1.25;
+    }
+    p:not(:last-child) {
+        margin-bottom: 2rem;
+    }
+}
+

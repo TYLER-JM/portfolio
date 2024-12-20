@@ -5,6 +5,7 @@ const Projects = function() {
   const projects = [
     {
       title: "MoCalc",
+      slug: "mocalc",
       tech: "Typescript, React, React Router",
       desc: "a Mortgage calculator that lets you easily compare multiple mortgage scenarios.",
       source: "https://github.com/TYLER-JM/mocalc",
@@ -12,6 +13,7 @@ const Projects = function() {
     },
     {
       title: "Team Fantasy",
+      slug: "team-fantasy",
       tech: "React, NextJS, Prisma, SupaBase",
       desc: "A platform to track and manage a team-based fantasy sports league. Using NextJS, and deployed with Vercel",
       source: "https://github.com/TYLER-JM/team-fantasy-v2",
@@ -23,6 +25,7 @@ const Projects = function() {
     return (
       <ProjectCard
         title={project.title}
+        slug={project.slug}
         tech={project.tech}
         desc={project.desc}
         source={project.source}

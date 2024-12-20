@@ -1,13 +1,15 @@
+import {Link} from "react-router";
 
 interface ProjectCardProps {
   title: string
+  slug: string
   tech: string
   desc: string
   source: string
   live?: string
 }
 const ProjectCard = function (
-  { title, tech, desc, source, live}: ProjectCardProps
+  { title, slug, tech, desc, source, live}: ProjectCardProps
 ) {
 
   return (
@@ -25,6 +27,11 @@ const ProjectCard = function (
             }
           </div>
           <p className="card__tech">{tech}</p>
+          <p className="card-tech">
+            <Link to={`${slug}`} >
+              Details
+            </Link>
+          </p>
           <p className="card__text">{desc}</p>
           <a title="view project repository" className="card__link source-code" href={source} target="blank">
             <svg>

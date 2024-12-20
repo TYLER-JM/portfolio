@@ -2,6 +2,8 @@ import ReactMarkdown from "react-markdown";
 import {useParams} from "react-router";
 import {useEffect, useState} from "react";
 
+import '../styles/project-detail.css'
+
 export default function ProjectDetail() {
 	const { slug } = useParams()
 	const [content, setContent] = useState('')
@@ -17,8 +19,12 @@ export default function ProjectDetail() {
 	}, [slug])
 
 	return (
-		<div className="project-detail">
-			<ReactMarkdown>{content}</ReactMarkdown>
-		</div>
+		<article className="section">
+			<div className="project-detail__container">
+				{/*<div className="project-detail">*/}
+					<ReactMarkdown>{content}</ReactMarkdown>
+				{/*</div>*/}
+			</div>
+		</article>
 	)
 }
