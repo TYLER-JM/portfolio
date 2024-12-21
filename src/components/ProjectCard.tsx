@@ -34,11 +34,15 @@ const ProjectCard = function (
               Read more <span className="icon">&rarr;</span>
             </Link>
           </p>
-          <a title="view project repository" className="card__link source-code" href={source} target="blank">
-            <svg>
-              <use xlinkHref="images/sprite.svg#icon-code"></use>
-            </svg>
-          </a>
+          <p className="card__tech">
+            <a href={source} target="_blank" className="card__detail-link">
+              {/*TODO: implement icons for links*/}
+              {/*<svg>*/}
+              {/*  <use xlinkHref="images/sprite.svg#icon-code"></use>*/}
+              {/*</svg>*/}
+              View repository <span className="icon">&rarr;</span>
+            </a>
+          </p>
         </div>
       </div>
 

@@ -1,5 +1,5 @@
 import ReactMarkdown from "react-markdown";
-import {useParams} from "react-router";
+import {Link, useParams} from "react-router";
 import {useEffect, useState} from "react";
 
 import '../styles/project-detail.css'
@@ -21,9 +21,11 @@ export default function ProjectDetail() {
 	return (
 		<article className="section">
 			<div className="project-detail__container">
-				{/*<div className="project-detail">*/}
 					<ReactMarkdown>{content}</ReactMarkdown>
-				{/*</div>*/}
+					<Link to="/projects" className="card__detail-link back">
+						<span className="icon">&larr;</span>
+						Go back
+					</Link>
 			</div>
 		</article>
 	)
