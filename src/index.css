@@ -19,11 +19,11 @@
   --dark: #303641;
 }
 
-main {
-  padding-top: 8em;
-}
-
 .section {
+  height: 85vh;
+  padding-bottom: 2rem;
+  overflow: auto;
+
   animation-name: fadein;
   animation-duration: 0.7s;
   animation-iteration-count: 1;

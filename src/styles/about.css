@@ -15,7 +15,6 @@
 }
 
 .about {
-    margin-bottom: 2em;
     .hero {
         display: flex;
         justify-content: space-evenly;

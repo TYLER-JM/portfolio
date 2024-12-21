@@ -1,5 +1,5 @@
 .project-detail__container {
-    max-width: 80%;
+    max-width: 70%;
     @media only screen and (max-width: 800px) {
         max-width: 95%;
     }
@@ -7,10 +7,13 @@
     font-family: sans-serif;
     padding: 1rem;
 
+    h2 {
+        margin-bottom: 1em;
+    }
     p {
         text-indent: 3rem;
         line-height: 1.25;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
     p:not(:last-child) {
         margin-bottom: 2rem;
