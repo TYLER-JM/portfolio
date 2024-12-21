@@ -17,12 +17,15 @@ ul {
 
 .menu {
     z-index: 10;
-    margin-bottom: 2em;
+    padding: 2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100vw;
+    position: fixed;
+    /*background: linear-gradient(192deg, #fff, #eaeaea);*/
+    /*background-color: #fff;*/
 
     li {
         font-family:'Times New Roman', serif;

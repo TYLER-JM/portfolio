@@ -19,13 +19,15 @@
   --dark: #303641;
 }
 
+main {
+  padding-top: 8em;
+}
+
 .section {
   animation-name: fadein;
   animation-duration: 0.7s;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
-
-  grid-area: 2 / 1 / 3 / 2;
 
   display: flex;
   flex-direction: column;
@@ -37,9 +39,6 @@
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 4fr;
 
   position: relative;
   min-height: 100vh;

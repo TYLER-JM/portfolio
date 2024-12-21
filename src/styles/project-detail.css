@@ -3,34 +3,17 @@
     @media only screen and (max-width: 800px) {
         max-width: 95%;
     }
-    margin: 0 auto;
 
-    font-size: 1.5em;
     font-family: sans-serif;
-    border: 1px solid red;
+    padding: 1rem;
 
     p {
         text-indent: 3rem;
         line-height: 1.25;
+        font-size: 1.5rem;
     }
     p:not(:last-child) {
         margin-bottom: 2rem;
     }
 
 }
-
-/*testing without this element*/
-.project-detail {
-    font-size: 1.5em;
-    font-family: sans-serif;
-    border: 1px solid red;
-
-    p {
-        text-indent: 3rem;
-        line-height: 1.25;
-    }
-    p:not(:last-child) {
-        margin-bottom: 2rem;
-    }
-}
-
