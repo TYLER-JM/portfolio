@@ -7,7 +7,7 @@ const Projects = function() {
       title: "MoCalc",
       slug: "mocalc",
       tech: "Typescript, React, React Router",
-      desc: "a Mortgage calculator that lets you easily compare multiple mortgage scenarios.",
+      desc: "A mortgage calculator that lets you easily compare multiple scenarios at once.",
       source: "https://github.com/TYLER-JM/mocalc",
       live: "https://mocalc.vercel.app/"
     },

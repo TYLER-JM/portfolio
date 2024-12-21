@@ -61,6 +61,45 @@
     display: flex;
     align-items: center;
 }
+.card__detail-link {
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: none;
+    font-style: italic;
+    transition: all 0.2s;
+
+    &:after {
+        backface-visibility: hidden;
+        bottom: 0;
+        content: " ";
+        display: block;
+        position: relative;
+        transition: all 280ms ease-in-out;
+        width: 0;
+        height: 1px;
+        background-color: burlywood;
+    }
+
+    &:hover:after {
+        backface-visibility: hidden;
+        transition: width 350ms ease-in-out;
+        width: 100%;
+    }
+
+}
+.card__detail-link:hover {
+    letter-spacing: 1px;
+}
+.card__detail-link .icon {
+    display: inline-block;
+    transform: translateX(-1px);
+    transition: all 0.2s;
+}
+.card__detail-link:hover .icon {
+    color: burlywood;
+    transform: translateX(2px);
+}
+
 .card__link {
     text-decoration: none;
     display: inline-block;
