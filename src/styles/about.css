@@ -54,7 +54,6 @@
             text-decoration: none;
             &:hover {
                 color: black;
-                letter-spacing: 2px;
             }
         }
     }
