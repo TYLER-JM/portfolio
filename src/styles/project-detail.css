@@ -19,4 +19,13 @@
         margin-bottom: 2rem;
     }
 
+    a:not(.back) {
+        text-decoration: none;
+        transition: all 0.3s;
+        font-style: italic;
+        &:hover {
+            color: black;
+        }
+    }
+
 }

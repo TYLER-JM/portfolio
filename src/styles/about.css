@@ -44,8 +44,7 @@
         font-weight: 300;
         a {
             text-decoration: none;
-
-            color: burlywood;
+            font-style: italic;
             transition: all 0.3s;
             &:hover {
                 color: black;
@@ -53,9 +52,9 @@
         }
         a:visited {
             text-decoration: none;
-            color: burlywood;
             &:hover {
                 color: black;
+                letter-spacing: 2px;
             }
         }
     }
