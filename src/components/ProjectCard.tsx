@@ -30,12 +30,12 @@ const ProjectCard = function (
           <p className="card__tech">{tech}</p>
           <p className="card__text">{desc}</p>
           <p className="card__tech">
-            <Link to={`${slug}`} className="card__detail-link">
+            <Link to={`${slug}`} className="card__link card__detail-link internal">
               Read more <span className="icon">&rarr;</span>
             </Link>
           </p>
           <p className="card__tech">
-            <a href={source} target="_blank" className="card__detail-link">
+            <a href={source} target="_blank" className="card__link card__detail-link internal">
               {/*TODO: implement icons for links*/}
               {/*<svg>*/}
               {/*  <use xlinkHref="images/sprite.svg#icon-code"></use>*/}

@@ -49,9 +49,6 @@
         width: 1.5em;
     }
 
-    display: inline-block;
-    text-decoration: none;
-    border-bottom: none;
     font-style: italic;
     transition: all 0.2s;
 
@@ -98,10 +95,8 @@
 .card__link {
     text-decoration: none;
     display: inline-block;
-    opacity: 1;
     &:visited {
         color: black;
-        text-transform: uppercase;
     }
 }
 .card__link--live {

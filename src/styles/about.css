@@ -40,22 +40,7 @@
         margin-bottom: 1rem;
         font-family: sans-serif;
         border-left: 2px solid burlywood;
-
         font-weight: 300;
-        a {
-            text-decoration: none;
-            font-style: italic;
-            transition: all 0.3s;
-            &:hover {
-                color: black;
-            }
-        }
-        a:visited {
-            text-decoration: none;
-            &:hover {
-                color: black;
-            }
-        }
     }
     span {
         width: 50%;

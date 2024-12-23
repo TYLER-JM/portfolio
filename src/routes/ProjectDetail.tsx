@@ -22,7 +22,7 @@ export default function ProjectDetail() {
 		<article className="section">
 			<div className="project-detail__container">
 					<ReactMarkdown>{content}</ReactMarkdown>
-					<Link to="/projects" className="card__detail-link back">
+					<Link to="/projects" className="card__link card__detail-link back">
 						<span className="icon">&larr;</span>
 						Go back
 					</Link>
