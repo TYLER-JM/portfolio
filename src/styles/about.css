@@ -16,7 +16,7 @@
 
 .about {
     .hero {
-        font-family: serif;
+        font-family: 'Lato', serif;
         display: flex;
         justify-content: space-evenly;
         align-items: center;

@@ -25,7 +25,7 @@ ul {
     height: 15vh;
 
     li {
-        font-family:'Times New Roman', serif;
+        font-family: 'Lato', 'Times New Roman', serif;
         transition: all 280ms ease-in-out;
         text-decoration: none;
         text-transform: uppercase;
