@@ -106,4 +106,8 @@
     margin-left: 0.25em;
     height: .75em;
     width: .75em;
+    transition: all 0.3s;
+    &:hover {
+        fill: burlywood;
+    }
 }
