@@ -90,8 +90,9 @@
 .card__link {
     text-decoration: none;
     display: inline-block;
+    color: var(--dark);
     &:visited {
-        color: black;
+        color: var(--dark);
     }
 }
 .card__link--live {
