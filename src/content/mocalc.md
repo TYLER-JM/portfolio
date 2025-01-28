@@ -15,7 +15,7 @@ sounded like a job for React, and a great opportunity to put into practice some 
 of the math behind mortgages.
 
 With MoCalc, I included a payment schedule table, but chose to limit it to just the length of the
-mortgage’s term. And work to add prepayment options is in progress. After establishing the app’s initial 
+mortgage’s term. And I've recently finished the work to add prepayment options. After establishing the app’s initial 
 React components, I realized that the bulk of the work for this project would be more design-based. 
 Specifically, considering how best to use available space efficiently in order to summarize the info from
 multiple mortgage scenarios at once. The goal is to write all the CSS from scratch, without relying on any
