@@ -17,7 +17,6 @@ const Projects = function() {
       tech: "React, NextJS, Prisma, SupaBase",
       desc: "A platform to track and manage a team-based fantasy sports league. Using NextJS, and deployed with Vercel",
       source: "https://github.com/TYLER-JM/team-fantasy-v2",
-      live: "https://team-fantasy-v2.vercel.app/"
     }
   ]
 
