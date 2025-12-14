@@ -19,6 +19,8 @@
   -moz-osx-font-smoothing: grayscale;
 
   --dark: #303641;
+
+  --header-height: 15vh;
 }
 
 .section {
@@ -66,7 +68,7 @@
 .container {
 
   position: relative;
-  min-height: 85vh; /* height of header nav: 15vh */
+  min-height: calc(100vh - var(--header-height));
   color: var(--dark);
 
   background: linear-gradient(192deg, #fff, #eaeaea);
@@ -79,5 +81,5 @@
 }
 
 main {
-  margin-top: 15vh;
+  margin-top: var(--header-height);
 }
