@@ -24,6 +24,10 @@ ul {
     width: 100vw;
     height: 15vh;
 
+    position: fixed;
+    top: 0;
+    background-color: white;
+
     li {
         font-family: 'Lato', 'Times New Roman', serif;
         transition: all 280ms ease-in-out;
