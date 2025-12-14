@@ -1,5 +1,6 @@
 import '../styles/projects.css'
 import ProjectCard from "../components/ProjectCard.tsx";
+import Layout from '../components/Layout.tsx';
 
 const Projects = function() {
   const projects = [
@@ -35,11 +36,13 @@ const Projects = function() {
   })
 
   return (
-    <article className="section projects" id="projects">
-      <div className="projects__container">
-          {allProjectCards}
-      </div>
-    </article>
+    <Layout>
+      <section className="section projects" id="projects">
+        <div className="projects__container">
+            {allProjectCards}
+        </div>
+      </section>
+    </Layout>
   );
 }
 
