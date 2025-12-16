@@ -1,11 +1,13 @@
 import logoUrl from '../assets/logo.png'
 import '../styles/about.css'
+import Layout from '../components/Layout.tsx'
 
 const About = function() {
   const classes = 'section about'
 
   return (
-    <article className={classes} id="about">
+    <Layout>
+      <section className={classes} id="about">
       <div className="about__container">
         <div className="hero">
           <h1 className="name name__first"> Tyler</h1>
@@ -19,7 +21,8 @@ const About = function() {
           I am also a Robertson Davies aficionado, and have a perfectly healthy love for board and card games. I can often be found playing my acoustic guitar, or baking a thin crust pepperoni pizza <span role='img' aria-label='pizza'>🍕</span>.
         </p>
       </div>
-    </article>
+    </section>
+    </Layout>
   );
 }
 

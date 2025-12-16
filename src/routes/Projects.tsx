@@ -1,5 +1,6 @@
 import '../styles/projects.css'
 import ProjectCard from "../components/ProjectCard.tsx";
+import Layout from '../components/Layout.tsx';
 
 const Projects = function() {
   const projects = [
@@ -17,7 +18,6 @@ const Projects = function() {
       tech: "React, NextJS, Prisma, SupaBase",
       desc: "A platform to track and manage a team-based fantasy sports league. Using NextJS, and deployed with Vercel",
       source: "https://github.com/TYLER-JM/team-fantasy-v2",
-      live: "https://team-fantasy-v2.vercel.app/"
     }
   ]
 
@@ -36,11 +36,13 @@ const Projects = function() {
   })
 
   return (
-    <article className="section projects" id="projects">
-      <div className="projects__container">
-          {allProjectCards}
-      </div>
-    </article>
+    <Layout>
+      <section className="section projects" id="projects">
+        <div className="projects__container">
+            {allProjectCards}
+        </div>
+      </section>
+    </Layout>
   );
 }
 

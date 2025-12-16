@@ -11,7 +11,7 @@
   @media only screen and (max-width: 800px) {
     font-size: calc(.5rem + 1vw);
   }
-  background: linear-gradient(192deg, #fff, #eaeaea);
+  /* background: linear-gradient(192deg, #fff, #eaeaea); */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -19,12 +19,14 @@
   -moz-osx-font-smoothing: grayscale;
 
   --dark: #303641;
+
+  --header-height: 15vh;
+  --sidebar-height: 2em;
+  --sidebar-width: 250px;
 }
 
 .section {
-  height: 85vh;
   padding-bottom: 2rem;
-  overflow: auto;
 
   animation-name: fadein;
   animation-duration: 0.7s;
@@ -68,12 +70,18 @@
 .container {
 
   position: relative;
-  min-height: 100vh;
+  min-height: calc(100vh - var(--header-height));
   color: var(--dark);
+
+  background: linear-gradient(180deg, #fff, #eaeaea);
 
   /*
   -webkit-animation: background-fade 37s ease infinite;
   -moz-animation: background-fade 37s ease infinite;
   animation: background-fade 37s ease infinite;
    */
+}
+
+main {
+  margin-top: var(--header-height);
 }

@@ -8,7 +8,7 @@
 }
 
 .about__container {
-    max-width: calc(35rem + 1vw);
+    /* max-width: calc(35rem + 1vw); */
     @media (max-width: 800px) {
         max-width: 90%;
     }
