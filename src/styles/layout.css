@@ -47,6 +47,7 @@
 
   .layout__sidebar--left {
     order: -1; /* Position sidebar before main content */
+    height: var(--sidebar-height);
   }
 
   .layout__sidebar--right {
