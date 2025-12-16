@@ -28,7 +28,6 @@
 @media only screen and (max-width: 1024px) {
   .layout {
     grid-template-columns: 200px 1fr;
-    gap: 1.5rem;
   }
 
   .layout__sidebar--right {
