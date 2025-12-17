@@ -25,22 +25,25 @@
   padding: 0.75rem 1rem;
   color: var(--dark);
   text-decoration: none;
-  border-left: 3px solid transparent;
   transition: all 0.3s ease;
   font-size: 0.85rem;
-  border-radius: 0 10px 10px 0;
+  border-radius: 20px 20px 20px 20px;
 }
 
 .sidebar ul li a:hover {
   background-color: rgba(0, 0, 0, 0.05);
-  border-left-color: burlywood;
 }
 
 .sidebar ul li a.active {
   font-weight: 700;
   background-color: rgba(0, 0, 0, 0.08);
-  border-left-color: burlywood;
   color: var(--dark);
+}
+
+@media only screen and (max-width: 1024px) {
+  .sidebar {
+    width: var(--sidebar-width-tablet);
+  }
 }
 
 /* Mobile: Sidebar styling adjustments */

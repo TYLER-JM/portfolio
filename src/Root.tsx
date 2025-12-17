@@ -7,7 +7,7 @@ function Root() {
   return (
     <>
       <nav className="menu" id="menu">
-        <ul>
+        <ul className="menu-list">
           <li><NavLink viewTransition to="/">About</NavLink></li>
           <li><NavLink viewTransition to="/projects">Projects</NavLink></li>
           <li><NavLink viewTransition to="/contact">Contact</NavLink></li>
